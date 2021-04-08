@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Chain_1 = require("./Chain");
+const Wallet_1 = require("./Wallet");
+new Chain_1.Chain();
+const agustin = new Wallet_1.Wallet();
+const nicolas = new Wallet_1.Wallet();
+const satoshi = new Wallet_1.Wallet();
+agustin.sendMoney(200, nicolas.publicKey);
+nicolas.sendMoney(300, satoshi.publicKey);
+satoshi.sendMoney(123, agustin.publicKey);
+console.log(Chain_1.Chain.instance);
