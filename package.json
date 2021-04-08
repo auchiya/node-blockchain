@@ -1,5 +1,5 @@
 {
-  "name": "helloblockchain",
+  "name": "node-blockchain",
   "version": "1.0.0",
   "description": "A simple project to understand how blockchain works",
   "main": "index.js",
