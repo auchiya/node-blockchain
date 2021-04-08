@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const Chain_1 = require("./Chain");
 const Wallet_1 = require("./Wallet");
-new Chain_1.Chain();
 const agustin = new Wallet_1.Wallet();
 const nicolas = new Wallet_1.Wallet();
 const satoshi = new Wallet_1.Wallet();

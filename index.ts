@@ -1,8 +1,6 @@
 import { Chain } from "./Chain";
 import { Wallet } from "./Wallet";
 
-new Chain();
-
 const agustin = new Wallet();
 const nicolas = new Wallet();
 const satoshi = new Wallet();
